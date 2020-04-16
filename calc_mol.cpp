@@ -1,5 +1,6 @@
 #include<stdio.h>
- 
+#include<windows.h>
+using namespace std;
 int t=1;
 int j=0;
 char *p;
@@ -17,6 +18,7 @@ int main()
 	{
 		printf("%d\n",a[i]);
 	}
+	system("pause");
 	return 0;	
 }
  
