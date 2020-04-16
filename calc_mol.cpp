@@ -8,7 +8,6 @@ int main()
 {
 	int a[t];
 	char string[t][100];
-	printf("请按格式输入\n");
 	scanf("%d",&t);
 	for(int i=0;i<t;i++){
 		scanf("%s",&string[i]);
